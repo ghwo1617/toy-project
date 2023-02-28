@@ -1,0 +1,102 @@
+.main {
+  min-width: 176px;
+  /* (mobile) min-height: 226px; */
+  /* (pc) */ min-height: 650px;
+  width: 100%;
+  height: auto;
+
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+
+.centerTable {
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-width: 730px;
+}
+
+.contentCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.menuSection{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.menuCard {
+  min-width: 150px;
+  min-height: 38px;
+  width: 700px;
+  height: 120px;
+  border-radius: 15px;
+  background-color: #fefefe;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+.menuNamePlace {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+.menuImgPlace {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-image: url("../../public/Americano.jpg");
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.menuPricePlace {
+  width: fit-content;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.menuName {
+  font-size: 30px;
+  color: #000000;
+  margin-right: 5px;
+}
+
+.menuTemp {
+  font-size: 29px;
+  color: #8d8d8d;
+}
+
+.menuPrice {
+  color: #b7b2b2;
+  text-decoration-line: line-through;
+  margin-right: 2px;
+}
+
+.menuSalePrice {
+  color: #787878;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.selectEffect {
+  position: absolute;
+  min-width: 12px;
+  min-height: 12px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #15b7da;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
