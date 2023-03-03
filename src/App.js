@@ -1,11 +1,7 @@
-import NavBar from "./components/NavBar";
-import SelectMenu from "./components/SelectMenu";
+import "./App.css";
 
-export default function App({ Components, pageProps }) {
-  return (
-    <>
-      <NavBar />
-      <SelectMenu />
-    </>
-  );
+function App() {
+  return (<></>);
 }
+
+export default App;

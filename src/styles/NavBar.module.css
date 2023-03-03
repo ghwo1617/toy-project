@@ -18,6 +18,8 @@
 }
 
 .toLogin {
+  outline: none;
+  cursor: pointer;
   border: 0;
   background-color: transparent;
   font-size: 20px;
@@ -52,10 +54,9 @@
 }
 
 .btnSelectMenu {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 0;
+  outline: none;
+  cursor: pointer;
+  border: 0;
   background-color: transparent;
   font-size: 20px;
   color: white;
@@ -68,10 +69,9 @@
 }
 
 .orderStatus {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom: 0;
+  outline: none;
+  cursor: pointer;
+  border: 0;
   background-color: transparent;
   font-size: 20px;
   color: white;
